@@ -1,4 +1,4 @@
-baseURL = "http://www.ishandwivedi.com/"
+baseURL = "https://www.ishandwivedi.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Ishan Dwivedi"
 theme = "ananke"
