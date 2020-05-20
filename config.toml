@@ -24,8 +24,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.profile]
         enable = true
-        name = "Simon Doe"
-        tagline = "Senior Software Engineer"
+        name = "Ishan Dwivedi"
+        tagline = "Senior SRE | DevSecOps Engineer"
         avatar = "avatar.png"
 
 
@@ -36,12 +36,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.contact]
         enable = true
-        location = "New York"
+        location = "London"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
         url = "tel:#"
-        text = "0123 4567 890"
+        text = "<undecided>"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
