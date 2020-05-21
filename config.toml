@@ -12,6 +12,7 @@ enableRobotsTXT = true
 editor = "nano"
 languageCode = "en"
 language = "en"
+theme = "vncnt-hugo"
 title = "Ishan Dwivedi · Senior SRE | DevSecOps"
 
 [permalinks]
