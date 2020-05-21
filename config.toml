@@ -1,4 +1,4 @@
-baseURL = "https://www.ishandwivedi.dev/"
+baseURL = "https://www.ishandwivedi.com/"
 # include content marked as draft
 buildDrafts = false
 # include content with publishdate in the future
@@ -12,15 +12,16 @@ enableRobotsTXT = true
 editor = "nano"
 languageCode = "en"
 language = "en"
-title = "Ishan Dwivedi · Senior SRE | DevSecOps"
+theme = "vncnt-hugo"
+title = "John Doe · Landing Page"
 
 [permalinks]
   fixed = ":title/"
   posts = "posts/:slug/"
 
 [params]
-  author = "Ishan Dwivedi"
-  email = "j@example.com"
+  author = "John Doe"
+  email = "john.doe@example.com"
   description = "Landing Page"
   bio = "First Row.  \nSecond Row."
   avatar = "img/avatar.jpg"
