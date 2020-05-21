@@ -1,5 +1,5 @@
-baseurl = "http://www.example.com"
-title = "johndoe"
+baseurl = "http://www.ishandwivedi.com"
+title = "Ishan Dwivedi"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -14,16 +14,16 @@ pygmentscodefencesguesssyntax = true
 disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "John Doe"
-    info = "Full Stack DevOps and Magician"
-    description = "John Doe's personal website"
+    author = "Ishan Dwivedi"
+    info = "Senior SRE | DevSecOps Engineer"
+    description = "Ishan Dwivedi's personal website"
     keywords = "blog,developer,personal"
     avatarurl = "images/avatar.jpg"
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = "Enter a text here."
+    footercontent = ""
 
     hidecredits = false
     hidecopyright = false
