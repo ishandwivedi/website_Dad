@@ -20,7 +20,7 @@ title = "Ishan Dwivedi · Senior SRE | DevSecOps"
 
 [params]
   author = "Ishan Dwivedi"
-  email = "j@example.com"
+  email = "mail@ishandwivedi.dev"
   description = "Landing Page"
   bio = "First Row.  \nSecond Row."
   avatar = "img/avatar.jpg"
@@ -28,7 +28,5 @@ title = "Ishan Dwivedi · Senior SRE | DevSecOps"
   error404 = "There is no such page."
 
   [params.contact]
-    github = "https://github.com/jdoe"
-    instagram = "https://instagram.com/jdoe"
-    twitter = "https://twitter.com/jdoe"
-    ello = ""
+    github = "https://github.com/ishandwivedi"
+    twitter = "https://twitter.com/ishandwivedi"
