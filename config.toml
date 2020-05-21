@@ -1,51 +1,61 @@
-baseURL = "https://www.ishandwivedi.com"
-languageCode = "en-us"
-title = "Ishan Dwivedi"
-theme = "npq-hugo"
-pygmentsUseClasses=true
+baseurl = "http://www.example.com"
+title = "johndoe"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
 
 [params]
-  author = "Ishan Dwivedi"
-  description = "your description"
-  keywords = "hugo blog"
-  useAvatar = true
-  microBlogSection = "posts"
-  displayMicroBlog = false
-  displayRecent = true
-  displayHomeContent = false
-  recentMax = 4
-  mail = "mail@example.com"
-  phone = "8888888888"
-  formspreeID = "yourformspreeID"
+    author = "John Doe"
+    info = "Full Stack DevOps and Magician"
+    description = "John Doe's personal website"
+    keywords = "blog,developer,personal"
+    avatarurl = "images/avatar.jpg"
 
-[menu]
-  [[menu.main]]
-    name = "home"
-    pre = "<i class=\"fas fa-home fa-sm\"></i>"
-    url = "/"
-    weight = -9 
-  [[menu.main]]
-    name = "blog"
-    pre = "<i class=\"fas fa-keyboard fa-ms\"></i>"
-    url = "/blog/"
-    weight = -8
-  [[menu.main]]
-    name = "tags"
-    pre = "<i class=\"fas fa-tags fa-ms\"></i>"
-    url = "/tags"
-    weight = -7 
-  [[menu.main]]
-    name = "github"
-    pre = "<i class=\"fab fa-github fa-ms\"></i>"
-    url = "https://github.com/yourgithubusername23434"
-    weight = -6 
-  [[menu.main]]
-    name = "RSS"
-    pre = "<i class=\"fas fa-rss fa-ms\"></i>"
-    url = "/index.xml"
-    weight = -4 
-  [[menu.main]]
-    name = "contact"
-    pre = "<i class=\"far fa-envelope\"></i>"
-    url = "/contact"
-    weight = -1 
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = "Enter a text here."
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/johndoe/"
+[[params.social]]
+    name = "Gitlab"
+    icon = "fab fa-gitlab fa-2x"
+    weight = 2
+    url = "https://gitlab.com/johndoe/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/johndoe/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
