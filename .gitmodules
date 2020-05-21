@@ -9,13 +9,7 @@
 [submodule "themes/vncnt-hugo"]
 	path = themes/vncnt-hugo
 	url = https://github.com/fncnt/vncnt-hugo
-<<<<<<< HEAD
-[submodule "themes/npq-hugo"]
-	path = themes/npq-hugo
-	url = https://github.com/saadnpq/npq-hugo.git
-=======
 
 [submodule "themes/npq-hugo"]
 	path = themes/npq-hugo
 	url = https://github.com/saadnpq/npq-hugo.git
->>>>>>> d26a6dd27157db31d8e08d1cbf7a4307ebf23d33
