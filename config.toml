@@ -58,7 +58,7 @@ disableHugoGeneratorInject = false
   keywords = ""
   images = [""]
 
-  homeSubtitle = "Hi, my name is Ishan Dwivedi. I'm a Senior SRE | DevSecOps | Cloud Engineer."
+  homeSubtitle = "Senior SRE | DevSecOps | Cloud Engineer"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
@@ -96,7 +96,7 @@ disableHugoGeneratorInject = false
 
   [params.portrait]
     path = "/img/image.jpg"
-    alt = "Portrait"
+    alt = "jshfdjshdf"
 
   # Social icons
   [[params.social]]
