@@ -1,35 +1,52 @@
-baseURL = "https://www.ishandwivedi.com/"
-# include content marked as draft
-buildDrafts = false
-# include content with publishdate in the future
-buildFuture = false
-# include content already expired
-buildExpired = false
-# enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
-relativeURLs = true
-disableRSS = true
-enableRobotsTXT = true
-editor = "nano"
-languageCode = "en"
-language = "en"
-theme = "vncnt-hugo"
-title = "John Doe · Landing Page"
-
-[permalinks]
-  fixed = ":title/"
-  posts = "posts/:slug/"
+baseURL = “https://www.ishandwivedi.com”
+languageCode = “en-us”
+title = “title”
+copyright = “Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved.”
+theme = “npq-hugo”
+pygmentsUseClasses=true
 
 [params]
-  author = "John Doe"
-  email = "john.doe@example.com"
-  description = "Landing Page"
-  bio = "First Row.  \nSecond Row."
-  avatar = "img/avatar.jpg"
-  favicon = "img/favicon.ico"
-  error404 = "There is no such page."
+  author = “your name”
+  description = “your description”
+  keywords = “hugo blog”
+  useAvatar = true
+  microBlogSection = “posts”
+  displayMicroBlog = false
+  displayRecent = true
+  displayHomeContent = false
+  recentMax = 4
+  mail = “mail@example.com”
+  phone = “8888888888”
+  formspreeID = “yourformspreeID”
 
-  [params.contact]
-    github = "https://github.com/jdoe"
-    instagram = "https://instagram.com/jdoe"
-    twitter = "https://twitter.com/jdoe"
-    ello = ""
+[menu]
+  [[menu.main]]
+    name = “home”
+    pre = “<i class=\”fas fa-home fa-sm\”></i>”
+    url = “/“
+    weight = -9 
+  [[menu.main]]
+    name = “blog”
+    pre = “<i class=\”fas fa-keyboard fa-ms\”></i>”
+    url = “/blog/“
+    weight = -8
+  [[menu.main]]
+    name = “tags”
+    pre = “<i class=\”fas fa-tags fa-ms\”></i>”
+    url = “/tags”
+    weight = -7 
+  [[menu.main]]
+    name = “github”
+    pre = “<i class=\”fab fa-github fa-ms\”></i>”
+    url = “https://github.com/yourgithubusername23434”
+    weight = -6 
+  [[menu.main]]
+    name = “RSS”
+    pre = “<i class=\”fas fa-rss fa-ms\”></i>”
+    url = “/index.xml”
+    weight = -4 
+  [[menu.main]]
+    name = “contact”
+    pre = “<i class=\”far fa-envelope\”></i>”
+    url = “/contact”
+    weight = -1 
