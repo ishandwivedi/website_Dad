@@ -4,6 +4,7 @@
             <span>&copy; {{ now.Format "2006" }}</span>
             {{ if .Site.Author.name }}
                 <span><a href="{{ .Site.BaseURL }}">{{ .Site.Author.name }}</a></span>
+            {{ end }}
         </div>
     </div>
     <div class="footer__inner">
