@@ -1,4 +1,4 @@
-baseURL = "https://www.spdwivedi.com"
+baseURL = "http://www.spdwivedi.com"
 title   = "SP Dwivedi"
 languageCode = "en-us"
 theme = "hello-friend-ng"
