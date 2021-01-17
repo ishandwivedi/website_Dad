@@ -1,5 +1,5 @@
-baseURL = "https://www.ishandwivedi.com"
-title   = "Ishan Dwivedi"
+baseURL = "https://www.spdwivedi.com"
+title   = "SP Dwivedi"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -37,7 +37,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Ishan Dwivedi"
+  name = "SP Dwivedi"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -58,7 +58,7 @@ disableHugoGeneratorInject = false
   keywords = ""
   images = [""]
 
-  homeSubtitle = "Senior SRE | DevSecOps | Cloud Engineer"
+  homeSubtitle = "Engineer"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
@@ -100,21 +100,8 @@ disableHugoGeneratorInject = false
 
   # Social icons
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/ishandwivedi"
-
-  [[params.social]]
     name = "email"
     url  = "mailto:mail@ishandwivedi.dev"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/ishandwivedi"
-
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/in/ishan-dwivedi/"
-    
 
 
 [menu]
